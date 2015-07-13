@@ -178,7 +178,7 @@ MaskedPassword.prototype = {
 		}
 		
 		//now add the type of "text" to the end, plus the autocomplete attributes, and close it
-		textfield += ' type="text" autocomplete="off" autocomplete="off" autocorrect="off">';
+		textfield += ' type="text" autocapitalize="off" autocomplete="off" autocorrect="off" />';
 		
 		//return the finished textfield HTML
 		return textfield;
